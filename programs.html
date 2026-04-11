@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Programs - Helping Hands NGO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">🌱 Helping Hands</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="programs.html" class="nav-item active">Programs ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="healthcare.html">Healthcare</a></li>
+                        <li><a href="environment.html">Environment</a></li>
+                    </ul>
+                </li>
+                <li><a href="get-involved.html" class="nav-item">Get Involved</a></li>
+                <li><a href="blog.html" class="nav-item">Blog</a></li>
+                <li><a href="gallery.html" class="nav-item">Gallery</a></li>
+                <li><a href="contact.html" class="nav-item">Contact</a></li>
+                <li><a href="donate.html" class="btn btn-primary donate-btn-nav">Donate</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Our Programs</h1>
+            <p style="color: #d1fae5; margin-top: 1rem; font-size: 1.2rem;">Addressing critical needs through targeted action.</p>
+        </div>
+    </div>
+
+    <!-- Programs Grid -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="cards-grid">
+                
+                <div class="card" onclick="window.location.href='education.html'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/education.png" alt="Education Program">
+                    </div>
+                    <div class="card-content">
+                        <h3>Education for All</h3>
+                        <p>Providing quality education and resources to underprivileged children to secure a brighter future. We build schools, provide scholarships, and train teachers.</p>
+                        <div><span class="text-primary font-weight-bold">View Details →</span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.location.href='healthcare.html'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/healthcare.png" alt="Healthcare Access">
+                    </div>
+                    <div class="card-content">
+                        <h3>Healthcare Access</h3>
+                        <p>Setting up medical camps and rural clinics to provide essential health services where they are needed most. Focus on maternal health and disease prevention.</p>
+                        <div><span class="text-primary font-weight-bold">View Details →</span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.location.href='environment.html'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/environment.png" alt="Environment Conservation">
+                    </div>
+                    <div class="card-content">
+                        <h3>Environment</h3>
+                        <p>Combating climate change through mass tree planting and environmental education campaigns. We aim to protect natural habitats and promote sustainability.</p>
+                        <div><span class="text-primary font-weight-bold">View Details →</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white; margin-bottom: 1rem;">🌱 Helping Hands</a>
+                    <p style="color: #9ca3af;">Empowering communities globally through compassion and actionable programs.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="programs.html">Our Programs</a>
+                    <a href="donate.html">Donate</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Helping Hands NGO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

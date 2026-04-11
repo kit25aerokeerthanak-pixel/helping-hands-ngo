@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hands NGO - Empowering Communities</title>
+    <meta name="description" content="Helping Hands NGO works towards education, healthcare, and environmental conservation in communities around the world.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                🌱 Helping Hands
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item active">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="programs.html" class="nav-item">Programs ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="healthcare.html">Healthcare</a></li>
+                        <li><a href="environment.html">Environment</a></li>
+                    </ul>
+                </li>
+                <li><a href="get-involved.html" class="nav-item">Get Involved</a></li>
+                <li><a href="blog.html" class="nav-item">Blog</a></li>
+                <li><a href="gallery.html" class="nav-item">Gallery</a></li>
+                <li><a href="contact.html" class="nav-item">Contact</a></li>
+                <li><a href="donate.html" class="btn btn-primary donate-btn-nav">Donate</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Making a Difference, Together</h1>
+            <p>Empowering communities through education, accessible healthcare, and environmental conservation for a sustainable future.</p>
+            <a href="donate.html" class="btn btn-primary">Donate Now</a>
+            <a href="about.html" class="btn btn-outline" style="margin-left: 1rem; border-color: white; color: white;">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Impact Numbers -->
+    <section class="impact-section">
+        <div class="container impact-grid">
+            <div class="impact-item">
+                <h3 data-target="50000">0</h3>
+                <p>Lives Helped</p>
+            </div>
+            <div class="impact-item">
+                <h3 data-target="15000">0</h3>
+                <p>Students Educated</p>
+            </div>
+            <div class="impact-item">
+                <h3 data-target="100000">0</h3>
+                <p>Trees Planted</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Highlights -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Our Programs</h2>
+            <div class="cards-grid">
+                
+                <div class="card" onclick="window.location.href='education.html'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/education.png" alt="Education Program">
+                    </div>
+                    <div class="card-content">
+                        <h3>Education for All</h3>
+                        <p>Providing quality education and resources to underprivileged children to secure a brighter future.</p>
+                        <div><span class="text-primary font-weight-bold">View Details →</span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.location.href='healthcare.html'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/healthcare.png" alt="Healthcare Access">
+                    </div>
+                    <div class="card-content">
+                        <h3>Healthcare Access</h3>
+                        <p>Setting up medical camps and rural clinics to provide essential health services where they are needed most.</p>
+                        <div><span class="text-primary font-weight-bold">View Details →</span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.location.href='environment.html'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/environment.png" alt="Environment Conservation">
+                    </div>
+                    <div class="card-content">
+                        <h3>Environment</h3>
+                        <p>Combating climate change through mass tree planting and environmental education campaigns.</p>
+                        <div><span class="text-primary font-weight-bold">View Details →</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white; margin-bottom: 1rem;">🌱 Helping Hands</a>
+                    <p style="color: #9ca3af;">Empowering communities globally through compassion and actionable programs.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="programs.html">Our Programs</a>
+                    <a href="donate.html">Donate</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Helping Hands NGO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

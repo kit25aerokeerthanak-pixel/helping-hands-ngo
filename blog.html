@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog - Helping Hands NGO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">🌱 Helping Hands</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="programs.html" class="nav-item">Programs ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="healthcare.html">Healthcare</a></li>
+                        <li><a href="environment.html">Environment</a></li>
+                    </ul>
+                </li>
+                <li><a href="get-involved.html" class="nav-item">Get Involved</a></li>
+                <li><a href="blog.html" class="nav-item active">Blog</a></li>
+                <li><a href="gallery.html" class="nav-item">Gallery</a></li>
+                <li><a href="contact.html" class="nav-item">Contact</a></li>
+                <li><a href="donate.html" class="btn btn-primary donate-btn-nav">Donate</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Our Latest Stories</h1>
+            <p style="color: #d1fae5; margin-top: 1rem; font-size: 1.2rem;">Updates and stories directly from the field.</p>
+        </div>
+    </div>
+
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="cards-grid">
+                
+                <div class="card" onclick="window.location.href='#'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/education.png" alt="Blog Image 1">
+                    </div>
+                    <div class="card-content">
+                        <span style="color: var(--primary-color); font-weight: 600; font-size: 0.9rem;">Education</span>
+                        <h3 style="margin-top: 0.5rem;">New school opens in District 5</h3>
+                        <p>We are absolutely thrilled to announce the opening of our latest primary school offering free education to over 300 students.</p>
+                        <div><span class="text-primary font-weight-bold">Read More →</span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.location.href='#'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/environment.png" alt="Blog Image 2">
+                    </div>
+                    <div class="card-content">
+                        <span style="color: var(--primary-color); font-weight: 600; font-size: 0.9rem;">Environment</span>
+                        <h3 style="margin-top: 0.5rem;">1 Million Trees Milestone Achieved</h3>
+                        <p>This week we celebrated planting our 1 millionth tree thanks to the combined efforts of over 50,000 volunteers nationwide.</p>
+                        <div><span class="text-primary font-weight-bold">Read More →</span></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.location.href='#'">
+                    <div class="card-img-wrapper">
+                        <img src="assets/healthcare.png" alt="Blog Image 3">
+                    </div>
+                    <div class="card-content">
+                        <span style="color: var(--primary-color); font-weight: 600; font-size: 0.9rem;">Healthcare</span>
+                        <h3 style="margin-top: 0.5rem;">Providing Vaccines to Rural Networks</h3>
+                        <p>Our medical volunteers have successfully delivered primary care vaccines to remote communities facing healthcare shortages.</p>
+                        <div><span class="text-primary font-weight-bold">Read More →</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white; margin-bottom: 1rem;">🌱 Helping Hands</a>
+                    <p style="color: #9ca3af;">Empowering communities globally through compassion and actionable programs.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="programs.html">Our Programs</a>
+                    <a href="donate.html">Donate</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Helping Hands NGO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

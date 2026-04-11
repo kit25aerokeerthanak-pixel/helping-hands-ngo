@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Helping Hands NGO</title>
+    <meta name="description" content="Make a donation to Helping Hands NGO. Every contribution helps us change a life.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">🌱 Helping Hands</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="programs.html" class="nav-item">Programs ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="healthcare.html">Healthcare</a></li>
+                        <li><a href="environment.html">Environment</a></li>
+                    </ul>
+                </li>
+                <li><a href="get-involved.html" class="nav-item">Get Involved</a></li>
+                <li><a href="blog.html" class="nav-item">Blog</a></li>
+                <li><a href="gallery.html" class="nav-item">Gallery</a></li>
+                <li><a href="contact.html" class="nav-item">Contact</a></li>
+                <li><a href="donate.html" class="btn btn-primary donate-btn-nav">Donate</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Make a Difference Today</h1>
+            <p style="color: #d1fae5; margin-top: 1rem; font-size: 1.2rem;">Your contribution helps us build a better world.</p>
+        </div>
+    </div>
+
+    <section class="content-section">
+        <div class="container" style="max-width: 800px;">
+            <div style="background-color: white; padding: 3rem; border-radius: 1rem; box-shadow: var(--shadow-md);">
+                <h2 class="text-center" style="margin-bottom: 2rem;">Donation Details</h2>
+                
+                <div class="contact-form" style="margin-bottom: 2rem;">
+                    <label>Full Name:</label>
+                    <input type="text" id="donorName" placeholder="Your Name" required>
+                    <label style="margin-top: 1rem;">Email Address:</label>
+                    <input type="email" id="donorEmail" placeholder="Your Email" required>
+                </div>
+
+                <div class="donation-grid">
+                    <div class="donate-card" data-amount="100">
+                        <div class="donate-amount">₹100</div>
+                        <p>Provides school supplies for one child.</p>
+                    </div>
+                    <div class="donate-card" data-amount="500">
+                        <div class="donate-amount">₹500</div>
+                        <p>Funds a medical checkup for a family.</p>
+                    </div>
+                    <div class="donate-card" data-amount="1000">
+                        <div class="donate-amount">₹1000</div>
+                        <p>Plants and maintains 50 new trees.</p>
+                    </div>
+                </div>
+
+                <div class="contact-form" style="margin-bottom: 2rem;">
+                    <label>Or enter a custom amount (₹):</label>
+                    <input type="number" id="customAmount" placeholder="e.g. 2500" min="1">
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-primary" id="proceedDonateBtn" style="width: 100%; font-size: 1.2rem; padding: 1rem;">Donate Now</button>
+                    <div id="thankYouMessage" style="margin-top: 2rem; display: none; padding: 1.5rem; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 0.5rem;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white; margin-bottom: 1rem;">🌱 Helping Hands</a>
+                    <p style="color: #9ca3af;">Empowering communities globally through compassion and actionable programs.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="programs.html">Our Programs</a>
+                    <a href="donate.html">Donate</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Helping Hands NGO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
